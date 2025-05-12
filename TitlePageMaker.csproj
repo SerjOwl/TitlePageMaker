@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="7.5.0" />
+    <PackageReference Include="NameCaseLib.Core" Version="9.0.1" />
+    <PackageReference Include="NetOffice.Word" Version="1.7.4.11" />
+    <PackageReference Include="System.Management.Automation" Version="7.5.0" />
+  </ItemGroup>
+
+</Project>
